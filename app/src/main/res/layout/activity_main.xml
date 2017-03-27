@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.takehomeassignment08_lindsayb.MainActivity">
+
+    <EditText
+        android:id="@+id/title_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What's your favorite country to visit?" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Country"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="set" />
+
+    <EditText
+        android:id="@+id/add_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favorite City?" />
+
+    <EditText
+        android:id="@+id/add_population"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Population" />
+
+    <CheckBox
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you go back?"
+        android:textSize="18dp"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:onClick="add"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp" />
+</LinearLayout>
